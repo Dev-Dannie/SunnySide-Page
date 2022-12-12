@@ -1,12 +1,12 @@
+import Hero from "./components/Hero"
+import Transform from "./components/Transform"
 
 
-function App() {
-
-  return (
-    <div className="text-3xl font-bold bg-[red] mt-5">
-       Hello World
-    </div>
-  )
-}
+const App = () => (
+  <div className="relative">
+      <Hero />
+      <Transform />
+  </div>
+)
 
 export default App
