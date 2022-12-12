@@ -1,8 +1,8 @@
 import React from 'react'
 
 const Transform = () => (
-    <div className='flex flex-row'>
-      <div className="flex flex-col  w-1/2 text-left  h-[80px]">
+    <div className=' flex md:flex-row flex-col-reverse'>
+      <div className="flex flex-col  text-center md:w-1/2 md:text-left">
       <h1>
       Transform your brand
       </h1>
@@ -15,8 +15,11 @@ const Transform = () => (
       <a href="#">Learn more</a>
       </div>
 
-      <div className='w-1/2'>
+      <div className='hidden md:flex md:w-1/2'>
         <img src="./images/desktop/image-transform.jpg" alt="" />
+      </div>
+      <div className='w-full md:hidden'>
+        <img src="./images/mobile/image-transform.jpg" alt="" />
       </div>
     </div>
   )
