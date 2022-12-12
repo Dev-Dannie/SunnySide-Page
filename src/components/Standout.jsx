@@ -16,7 +16,7 @@ const Standout = () => (
       Standout to the right audience
       </h1>
 
-      <p className='font-bold mb-10 text-center text-darkGrayishBlue'>  
+      <p className='font-bold mb-10 text-center md:text-left text-darkGrayishBlue'>  
       Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
       </p>
 
