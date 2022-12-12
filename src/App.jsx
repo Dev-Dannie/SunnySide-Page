@@ -1,4 +1,6 @@
+import Footer from "./components/Footer"
 import Hero from "./components/Hero"
+import Heroes from "./components/Heroes"
 import Photography from "./components/Photography"
 import Standout from "./components/Standout"
 import Testimonials from "./components/Testimonials"
@@ -12,6 +14,8 @@ const App = () => (
       <Standout />
       <Photography />
       <Testimonials />
+      <Heroes />
+      <Footer />
   </div>
 )
 

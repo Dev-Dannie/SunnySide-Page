@@ -22,6 +22,7 @@ module.exports = {
         darkGrayishBlue: 'hsl(232, 10%, 55%)',
         grayishBlue: 'hsl(210, 4%, 67%)',
         White: 'hsl(0, 0%, 100%)',
+        grayishB: 'hsl(120, 4%, 87%)',
       }
     },
   },

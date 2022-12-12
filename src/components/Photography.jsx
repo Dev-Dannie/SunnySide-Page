@@ -46,7 +46,7 @@ const Photography = () => (
         </div>
       </div>
 
-      <div className='w-full md:hidden'>
+      <div className='w-full md:hidden relative'>
         <img src="./images/mobile/image-photography.jpg" alt="" />
         
         <div className="absolute bottom-0 mb-8 px-20 flex flex-col text-center">
