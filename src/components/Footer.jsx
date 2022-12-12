@@ -1,15 +1,13 @@
 import React from 'react'
 
 const Footer = () =>  (
-    <div className='flex flex-col pt-6 pb-10 bg-darkModerateCyan items-center'>
-      <h1 className="text-2xl">
-        sunnyside
-      </h1>
+    <div className='flex flex-col pt-6 pb-10 space-y-8 bg-darkModerateCyan items-center'>
+     <img src="../images/logo.svg" alt="" className='text-darkDesaturatedCyan'/>
 
       <div className="flex flex-row space-x-5">
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Projects</a>
+        <a href="#" className='text-darkDesaturatedCyan font-bold'>About</a>
+        <a href="#" className='text-darkDesaturatedCyan font-bold'>Services</a>
+        <a href="#" className='text-darkDesaturatedCyan font-bold'>Projects</a>
       </div>
 
       <div className="flex flex-row space-x-3">
